@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffd6d6;
+  height: 100vh;
+  text-align: center;
+}
+
+/* PASSWORD SCREEN */
+#password {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5caca;
+}
+
+#passwordBox {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#passwordBox input {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#passwordBox button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* MAIN */
+#main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cat {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+#play {
+  font-size: 40px;
+  padding: 20px 30px;
+  border-radius: 50%;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+/* STORY */
+.box {
+  background: white;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+/* PHOTOS */
+.photos img,
+#photos img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+/* VIDEO */
+#videoBox {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vid {
+  width: 80%;
+  max-height: 80%;
+  border-radius: 20px;
+}
+
